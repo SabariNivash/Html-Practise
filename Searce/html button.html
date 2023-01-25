@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .greenButton {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 10%;
+            border-radius: 4px;
+        }
+
+        .redButton {
+            background-color: #FF0000;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 10%;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            This below SMM opportunity goes below the SMM out.Please Approve or Reject the request.<br><br>
+            <button class="greenButton" onclick="location.href='${approveUrl}'" type="button">Approve</button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <button class="redButton" onclick="location.href='${declineUrl}'" type="button">Reject</button>
+        </div>
+    </div>
+</body>
+
+</html>

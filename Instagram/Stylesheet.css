@@ -1,0 +1,193 @@
+  /* Sidebar */
+  .logo {
+      font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      width: 103px;
+      height: 29px;
+      margin: 35px 102px 35px 12px;
+  }
+  
+  .sidebar{
+    margin-left: 18px;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: 245px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border: 1px lightgrey solid;
+  }
+
+
+  .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #818181;
+      line-height: 50px;
+      letter-spacing: normal;
+      word-spacing: 2px;
+      margin: -6px 0px;
+      padding: 5px;
+      display: block;
+  }
+  .menuItems{
+    margin-left: 10px;
+  }
+
+  .sidenav a:hover {
+      background-color: #f1f1f1;
+  }
+
+  .main {
+      margin-left: 160px;
+      /* Same as the width of the sidenav */
+      font-size: 28px;
+      /* Increased text to enable scrolling */
+      padding: 0px 10px;
+  }
+
+  @media screen and (max-height: 450px) {
+      .sidenav {
+          padding-top: 15px;
+      }
+
+      .sidenav a {
+          font-size: 18px;
+      }
+  }
+
+  /* Sidebar */
+
+
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      background: whitesmoke;
+      margin: 0;
+      font-family: sans-serif;
+  }
+
+
+  nav {
+      background: white;
+      margin-bottom: 25px;
+  }
+
+  h5 {
+      margin-top: 5px;
+      text-align: right;
+  }
+
+  main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px
+  }
+
+
+  header {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 30px;
+  }
+
+  header .col-left {
+      margin-right: 25px;
+  }
+
+  header h1 {
+      font-weight: 400;
+  }
+
+  header button {
+      background: dodgerblue;
+      border: none;
+      padding: 10px 100px;
+      color: #fff;
+      font-size: 14px;
+  }
+
+  .user-img {
+      border-radius: 50%;
+      width: 100px;
+      display: block;
+      margin: auto auto;
+  }
+
+  article {
+      margin-bottom: 30px;
+  }
+
+  aside {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+  }
+
+  aside strong {
+      color: black;
+  }
+
+  .col-stats {
+      width: 33.3333%;
+      text-align: center;
+      color: gray;
+      font-weight: 200;
+  }
+
+  section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+  }
+
+  section>* {
+      width: 32%;
+      height: 32%;
+      margin-bottom: 32px;
+  }
+
+  img {
+      width: 100%;
+      display: block;
+  }
+
+  footer button {
+      background: dodgerblue;
+      border: 0;
+      width: 95%;
+      margin: 0 auto;
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+  }
+
+  footer {
+      text-align: center;
+      color: gray;
+      text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 400px) {
+      aside .col {
+          width: 100%;
+          padding: 10px;
+      }
+
+      section>* {
+          width: 100%;
+          padding: 10px
+      }
+  }

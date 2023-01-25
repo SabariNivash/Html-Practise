@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+</head>
+
+<body>
+    <div dir="ltr">
+        <div style="margin-top:4px;">
+            Hello <b>
+                <?!= name ?>
+            </b>,
+        </div>
+
+        <div style="margin-top:10px;">
+            Please clear the above mentioned outstanding at the earliest and confirm.<br>
+        </div>
+
+        <div style="margin-top:10px;">
+            <table style="border: 1px solid #ccc;border-collapse: collapse;margin: 0;padding: 0;table-layout: fixed;">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ccc;padding:5px; background-color: #235E6E; color: #F9F9F9;"
+                            colspan="2">Ticket Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            CHANNEL</th>
+                        <td style="padding: 5px;">
+                            <?!= channel ?>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            CustCode</th>
+                        <td style="padding: 5px;">
+                            <?!= custCode ?>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            ETP</th>
+                        <td style="padding: 5px;">
+                            <?!= etp ?>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            Name</th>
+                        <td style="padding: 5px;">
+                            <?!= name ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            ABM</th>
+                        <td style="padding: 5px;">
+                            <?!= abm ?>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            Total Outstanding
+                        </th>
+                        <td style="padding: 5px;">
+                            <?!= totalOutstanding ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+
+                            < 3 Days </th>
+                        <td style="padding: 5px;">
+                            <?!= below3days ?>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            3-5 Days</th>
+                        <td style="padding: 5px;">
+                            <?!= above3_5days ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            6-15 Days </th>
+                        <td style="padding: 5px;">
+                            <?!= above6_15days ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            15-30 Days </th>
+                        <td style="padding: 5px;">
+                            <?!= above15_30days ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            > 1 Month </th>
+                        <td style="padding: 5px;">
+                            <?!= above1month ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            > 45 Days</th>
+                        <td style="padding: 5px;">
+                            <?!= above45days ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            > 2 Month </th>
+                        <td style="padding: 5px;">
+                            <?!= above2month ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            > 3 Month </th>
+                        <td style="padding: 5px;">
+                            <?!= above3month ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            > 6 Month </th>
+                        <td style="padding: 5px;">
+                            <?!= above6month ?>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="border: 1px solid #ccc;">
+                        <th
+                            style="text-align:left;padding: 5px;width:25%;border:1px solid #ccc; background-color: #409895;color: #FFFFFF;">
+                            > 1 Year </th>
+                        <td style="padding: 5px;">
+                            <?!= 1year ?>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="margin-top:20px;">
+            <div>Thanks & Regards,</div>
+            <div>Process Excellence </div>
+        </div>
+    </div>
+</body>
