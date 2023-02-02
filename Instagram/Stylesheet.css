@@ -1,193 +1,260 @@
-  /* Sidebar */
-  .logo {
-      font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      width: 103px;
-      height: 29px;
-      margin: 35px 102px 35px 12px;
-  }
-  
-  .sidebar{
-    margin-left: 18px;
-  }
+    /* Sidebar */
+    .logo {
+        font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        width: 103px;
+        height: 29px;
+        margin: 35px 102px 35px 12px;
+    }
 
-  .sidenav {
-      height: 100%;
-      width: 245px;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #FFFFFF;
-      overflow-x: hidden;
-      padding-top: 20px;
-      border: 1px lightgrey solid;
-  }
+    .sidebar {
+        margin-left: 18px;
+    }
 
-
-  .sidenav a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 16px;
-      color: #818181;
-      line-height: 50px;
-      letter-spacing: normal;
-      word-spacing: 2px;
-      margin: -6px 0px;
-      padding: 5px;
-      display: block;
-  }
-  .menuItems{
-    margin-left: 10px;
-  }
-
-  .sidenav a:hover {
-      background-color: #f1f1f1;
-  }
-
-  .main {
-      margin-left: 160px;
-      /* Same as the width of the sidenav */
-      font-size: 28px;
-      /* Increased text to enable scrolling */
-      padding: 0px 10px;
-  }
-
-  @media screen and (max-height: 450px) {
-      .sidenav {
-          padding-top: 15px;
-      }
-
-      .sidenav a {
-          font-size: 18px;
-      }
-  }
-
-  /* Sidebar */
+    .sidenav {
+        height: 100%;
+        width: 245px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #FFFFFF;
+        overflow-x: hidden;
+        padding-top: 20px;
+        border: 1px lightgrey solid;
+    }
 
 
-  * {
-      box-sizing: border-box;
-  }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #818181;
+        line-height: 50px;
+        letter-spacing: normal;
+        word-spacing: 2px;
+        margin: -6px 0px;
+        padding: 5px;
+        display: block;
+    }
 
-  body {
-      background: whitesmoke;
-      margin: 0;
-      font-family: sans-serif;
-  }
+    .menuItems {
+        margin-left: 10px;
+    }
+
+    .sidenav a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .main {
+        margin-left: 160px;
+        /* Same as the width of the sidenav */
+        font-size: 28px;
+        /* Increased text to enable scrolling */
+        padding: 0px 10px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+
+    /* Sidebar */
 
 
-  nav {
-      background: white;
-      margin-bottom: 25px;
-  }
+    * {
+        box-sizing: border-box;
+    }
 
-  h5 {
-      margin-top: 5px;
-      text-align: right;
-  }
-
-  main {
-      max-width: 700px;
-      margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 15px
-  }
+    body {
+        background: whitesmoke;
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        border: blue 2px solid;
+    }
 
 
-  header {
-      display: flex;
-      align-items: flex-end;
-      margin-bottom: 30px;
-  }
+    nav {
+        background: white;
+        margin-bottom: 25px;
+    }
 
-  header .col-left {
-      margin-right: 25px;
-  }
+    h5 {
+        margin-top: 5px;
+        text-align: right;
+    }
 
-  header h1 {
-      font-weight: 400;
-  }
+    main {
+        max-width: 1000px;
+        margin: 0px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: red 2px solid;
+        
+    }
 
-  header button {
-      background: dodgerblue;
-      border: none;
-      padding: 10px 100px;
-      color: #fff;
-      font-size: 14px;
-  }
 
-  .user-img {
-      border-radius: 50%;
-      width: 100px;
-      display: block;
-      margin: auto auto;
-  }
+    header {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 30px;
+        border: green 2px solid;
+    }
 
-  article {
-      margin-bottom: 30px;
-  }
+    header .col-left {
+        margin-right: 25px;
+    }
 
-  aside {
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: 10px;
-  }
+    header h1 {
+        font-weight: 400;
+    }
 
-  aside strong {
-      color: black;
-  }
+    header button {
+        background: dodgerblue;
+        border: none;
+        padding: 10px 100px;
+        color: #fff;
+        font-size: 14px;
+    }
 
-  .col-stats {
-      width: 33.3333%;
-      text-align: center;
-      color: gray;
-      font-weight: 200;
-  }
+    .user-img {
+        border-radius: 50%;
+        width: 100px;
+        display: block;
+        margin: auto auto;
+    }
 
-  section {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 30px;
-  }
+    article {
+        margin-bottom: 30px;
+    }
 
-  section>* {
-      width: 32%;
-      height: 32%;
-      margin-bottom: 32px;
-  }
+    aside {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
 
-  img {
-      width: 100%;
-      display: block;
-  }
+    aside strong {
+        color: black;
+    }
 
-  footer button {
-      background: dodgerblue;
-      border: 0;
-      width: 95%;
-      margin: 0 auto;
-      display: block;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      color: white;
-  }
+    .col-stats {
+        width: 33.3333%;
+        text-align: center;
+        color: gray;
+        font-weight: 200;
+    }
 
-  footer {
-      text-align: center;
-      color: gray;
-      text-transform: uppercase;
-  }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
 
-  @media screen and (max-width: 400px) {
-      aside .col {
-          width: 100%;
-          padding: 10px;
-      }
+    section>* {
+        width: 32%;
+        height: 32%;
+        margin-bottom: 32px;
+    }
 
-      section>* {
-          width: 100%;
-          padding: 10px
-      }
-  }
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    footer button {
+        background: dodgerblue;
+        border: 0;
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    footer {
+        text-align: center;
+        color: gray;
+        text-transform: uppercase;
+    }
+
+    @media screen and (max-width: 400px) {
+        aside .col {
+            width: 100%;
+            padding: 10px;
+        }
+
+        section>* {
+            width: 100%;
+            padding: 10px
+        }
+    }
+
+
+    .shakeme:hover,
+    .shakeme:focus {
+        -webkit-animation-name: shakeme;
+        -webkit-animation-duration: 0.8s;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+    }
+
+    .shakeme {
+        display: inline-block
+    }
+
+    @-webkit-keyframes shakeme {
+
+        0% {
+            -webkit-transform: translate(2px, 1px) rotate(0deg);
+        }
+
+        10% {
+            -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+        }
+
+        20% {
+            -webkit-transform: translate(-3px, 0px) rotate(1deg);
+        }
+
+        30% {
+            -webkit-transform: translate(0px, 2px) rotate(0deg);
+        }
+
+        40% {
+            -webkit-transform: translate(1px, -1px) rotate(1deg);
+        }
+
+        50% {
+            -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+        }
+
+        60% {
+            -webkit-transform: translate(-3px, 1px) rotate(0deg);
+        }
+
+        70% {
+            -webkit-transform: translate(2px, 1px) rotate(-1deg);
+        }
+
+        80% {
+            -webkit-transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+            -webkit-transform: translate(2px, 2px) rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: translate(1px, -2px) rotate(-1deg);
+        }
+    }
